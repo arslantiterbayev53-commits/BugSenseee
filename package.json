@@ -1,0 +1,20 @@
+{
+  "name": "bugsense-bot",
+  "version": "2.0.0",
+  "description": "BugSense — AI Telegram Bot powered by Claude API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.0",
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.0",
+    "groq-sdk": "^1.1.2",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
